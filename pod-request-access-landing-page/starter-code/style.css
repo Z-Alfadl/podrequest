@@ -67,6 +67,7 @@ button {
 
 button:hover {
     cursor: pointer;
+    background-color: #B3FFE2;
 }
 
 
@@ -104,8 +105,8 @@ form .oops {
     font-weight: bold;
     display: none;
 }
-
-form:invalid .oops {
+form .success {
+    color: #54E6AF;
     display: block;
 }
 
@@ -122,4 +123,8 @@ p {
     font-weight: 400;
     line-height: 1.5rem;
     width: 62%;
+}
+
+@media only screen and (min-width: 48em) {
+    
 }
